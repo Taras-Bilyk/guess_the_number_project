@@ -83,16 +83,20 @@
                     }else{
                         echo("<h3>Ви вгадали число!</h3>");
                         echo("<p>Число: $password</p>");
+                        echo("<a href='index.php'>play again</a>");
                     }
                     
                 }else if($number != $n2){
                     echo("<h3>GAME OVER!</h3>");
                     echo("<h3>Ви не вгадали число!</h3>");
                     echo("<p>Число: $password</p>");
+                    echo("<a href='index.php'>play again</a>");
 
                 }else if($number == $n2){
                     echo("<h3>Ви вгадали число!</h3>");
                     echo("<p>Число: $password</p>");
+                    echo("<a href='index.php'>play again</a>");
+
                 }
                 // echo("<p>$password</p>");
                 // var_dump($_POST);
